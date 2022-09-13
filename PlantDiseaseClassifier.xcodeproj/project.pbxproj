@@ -14,6 +14,8 @@
 		105E0F9C28D11DF700ADB0F9 /* PlantDiseaseClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E0F9B28D11DF700ADB0F9 /* PlantDiseaseClassifierTests.swift */; };
 		105E0FA628D11DF700ADB0F9 /* PlantDiseaseClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E0FA528D11DF700ADB0F9 /* PlantDiseaseClassifierUITests.swift */; };
 		105E0FA828D11DF700ADB0F9 /* PlantDiseaseClassifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E0FA728D11DF700ADB0F9 /* PlantDiseaseClassifierUITestsLaunchTests.swift */; };
+		105E0FB728D11E3B00ADB0F9 /* PlantClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 105E0FB628D11E3B00ADB0F9 /* PlantClassifier.mlmodel */; };
+		105E0FB928D11E9B00ADB0F9 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E0FB828D11E9B00ADB0F9 /* ImagePredictor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		105E0FA128D11DF700ADB0F9 /* PlantDiseaseClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantDiseaseClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105E0FA528D11DF700ADB0F9 /* PlantDiseaseClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseaseClassifierUITests.swift; sourceTree = "<group>"; };
 		105E0FA728D11DF700ADB0F9 /* PlantDiseaseClassifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseaseClassifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		105E0FB628D11E3B00ADB0F9 /* PlantClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PlantClassifier.mlmodel; sourceTree = "<group>"; };
+		105E0FB828D11E9B00ADB0F9 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		105E0F8928D11DF600ADB0F9 /* PlantDiseaseClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				105E0FB628D11E3B00ADB0F9 /* PlantClassifier.mlmodel */,
 				105E0F8A28D11DF600ADB0F9 /* PlantDiseaseClassifierApp.swift */,
 				105E0F8C28D11DF600ADB0F9 /* ContentView.swift */,
 				105E0F8E28D11DF700ADB0F9 /* Assets.xcassets */,
 				105E0F9028D11DF700ADB0F9 /* Preview Content */,
+				105E0FB828D11E9B00ADB0F9 /* ImagePredictor.swift */,
 			);
 			path = PlantDiseaseClassifier;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105E0FB728D11E3B00ADB0F9 /* PlantClassifier.mlmodel in Sources */,
 				105E0F8D28D11DF600ADB0F9 /* ContentView.swift in Sources */,
+				105E0FB928D11E9B00ADB0F9 /* ImagePredictor.swift in Sources */,
 				105E0F8B28D11DF600ADB0F9 /* PlantDiseaseClassifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
